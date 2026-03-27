@@ -138,6 +138,12 @@ pub type Tensor2<T, A> = Tensor<T, 2, A>;
 pub type Tensor3<T, A> = Tensor<T, 3, A>;
 
 /// Type alias for a 4-dimensional tensor.
+#
+ Shift+ArrowDownShift+ArrowDownBackspace #[cfg(test)]
+mod tests_expanded;
+[cfg(test)]
+mod tests_expanded;
+
 pub type Tensor4<T, A> = Tensor<T, 4, A>;
 
 /// Type alias for a 2-dimensional tensor with CPU allocator.
